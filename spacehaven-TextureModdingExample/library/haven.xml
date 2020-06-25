@@ -1,0 +1,75 @@
+<data>
+	<Product>
+	</Product>
+  <Element>
+<!-- CUSTOM ELEMENTS HAVE IDS STARTING WITH 7356 (that's my discord id, choose another prefix for yourself :)
+This is basically a copy of the X1 door with some minor alterations, see below
+-->
+		<me _annotation="White Test Door" alternateY="false" costGroup="870" ec="2" mid="73560102" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Door">
+					<element dontWarnBadEnv="false" flipDoorX="false" id="0" lightValue="Wall" notWall="false" renderOnFloor="false" setAsHull="false" walkGridCost="1">
+						<definedStates>
+							<l backX="0" backY="-2" doorX="0" doorY="-2" frontX="0" frontY="-2" noGasPassing="false" setSpaceSuitOff="false" setSpaceSuitOn="false" state="Standby">
+								<!-- update with new animations -->
+								<front aid="doorsUnlimitedWhiteFront" />
+								<back aid="doorsUnlimitedWhiteBack" />
+								<door aid="doorsUnlimitedWhiteDoor" />
+								<vent on="true">
+									<r0Closed aid="doorsUnlimitedWhiteVent1" />
+									<r90Closed aid="null" />
+									<additionaFullLitOpen atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+										<r0 aid="doorsUnlimitedWhiteVentLight1" flx="false" />
+										<r90 aid="null" flx="false" />
+										<r180 aid="doorsUnlimitedWhiteVentLight1" flx="false" />
+										<r270 aid="null" flx="false" />
+									</additionaFullLitOpen>
+									<additionalFullLitClosed atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+										<r0 aid="doorsUnlimitedWhiteVentLight2" flx="false" />
+										<r90 aid="null" flx="false" />
+										<r180 aid="doorsUnlimitedWhiteVentLight2" flx="false" />
+										<r270 aid="null" flx="false" />
+									</additionalFullLitClosed>
+								</vent>
+								<light color="594f2cff" powerTier="Decorative" skipCenter="false">
+									<offset x="-1" y="0" />
+									<ray angle="0" brightness="255" distance="5" rotate="false" rotatePerSec="0.0" smoothEdges="true" spread="240.0" />
+								</light>
+								<extraLights>
+									<l color="594f2cfe" powerTier="Decorative" skipCenter="false">
+										<offset x="1" y="0" />
+										<ray angle="180" brightness="255" distance="5" rotate="false" rotatePerSec="0.0" smoothEdges="true" spread="240.0" />
+									</l>
+								</extraLights>
+							</l>
+						</definedStates>
+						<indicator backX="0" backY="-2" frontX="0" frontY="-2">
+							<front aid="doorway1FrontLight" />
+							<back aid="doorway1BackLight" />
+						</indicator>
+						<noiseAndComfort onlyWhenInuse="false" reduceNegative="false">
+							<noise noise="10.0">
+								<audio auid="981" />
+							</noise>
+						</noiseAndComfort>
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="6" systemPoints="0" viewMode="Normal">
+    <!-- CHANGE NAME AND DESCRIPTION HERE, references entries in texts.xml -->
+				<name tid="73560100" />
+				<desc tid="73560101" />
+    <!-- CHANGE BUILD MENU AND INFO ICON, references 'ba' entries through the attribute 'n' in animations.xml -->
+				<guiIcon aid="doorsUnlimitedWhiteGUI" />
+				<subCat id="1522" />
+				<restrictions>
+					<l gridX="-1" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+					<l gridX="1" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="1" skill="Construction" />
+			</objectInfo>
+		</me>
+  </Element>
+</data>

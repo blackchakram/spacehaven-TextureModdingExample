@@ -1,0 +1,26 @@
+<mod>
+  <name>Texture Modding Example</name>
+  <description>This will teach you how to do a very simple texture mod to load in your own textures to a custom item in the game.
+  </description>
+  <modVersion>0.0.1</modVersion>
+  <author>BlackChakram</author>
+  <minimumLoaderVersion>0.0.7</minimumLoaderVersion>
+  <gameVersions>
+    <v>0.8.19</v>
+  </gameVersions>
+</mod>
+
+<!--
+YOU NEED THE FOLLOWING FOLDERS AND FILES FOR THE MOD TO WORK:
+[folder] library
+   animations.xml                         // holds the animation states. normal for most mods
+   haven.xml                              // modifies the main library. normal for most mods
+   texts.xml                              // name and description for any items added or modified
+   textures.xml                           // references for what textures to use and when. The main show of this mod!
+[folder] textures
+   your_custom_textures.png               // not actually named that.
+   modded_cim_your_custom_textures.png    // generated at runtime.
+info.xml                                  // this file
+
+
+-->

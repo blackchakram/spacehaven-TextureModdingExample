@@ -1,0 +1,29 @@
+<AllTexturesAndRegions>
+	<textures>
+	    <!-- create an gfx asset for us, referenced by its attribute 'i' (it'll be 357.cim on the filesystem) 
+		      the asset ID is normal but with a missing "0" in the thousands place -->
+		<t i="7356150" w="68" h="82"/>
+		<t i="7356151" w="56" h="88"/>
+		<t i="7356152" w="26" h="56"/>
+		<t i="7356153" w="26" h="56"/>
+		<t i="7356154" w="26" h="56"/>
+		<t i="7356155" w="12" h="12"/>
+		<t i="7356156" w="100" h="100"/>
+	</textures>
+	<regions>
+	    <!-- define a region in that asset, here it's everything
+		"n" is the attribute for referencing. 
+		It looks like regions are stored as an array in the code, so they have to be consecutive.
+		The modloader takes care of remapping the ids when running the game		
+		-->
+		<re n="73560150" t="7356150" x="0" y="0" w="68" h="82"/>
+		<re n="73560151" t="7356151" x="0" y="0" w="56" h="88"/>
+		<re n="73560152" t="7356152" x="0" y="0" w="26" h="56"/>
+		<re n="73560153" t="7356153" x="0" y="0" w="26" h="56"/>
+		<re n="73560154" t="7356154" x="0" y="0" w="26" h="56"/>
+		<re n="73560155" t="7356155" x="0" y="0" w="12" h="12"/>
+		
+		<!-- GUI Icon -->
+		<re n="73560156" t="7356156" x="0" y="0" w="100" h="100"/>
+	</regions>
+</AllTexturesAndRegions>
