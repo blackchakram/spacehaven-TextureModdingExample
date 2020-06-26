@@ -1,11 +1,10 @@
 <t>
 
-	
-	<object_doors_unlimited_name id="73560100" pid="122">
-	<EN>White Test Door</EN>
-	</object_doors_unlimited_name>		
+	<object_texture_modding_example_name id="73560200" pid="122">		<!-- LINK YOU CUSTOM ID HERE -->
+	<EN>In-Floor Light</EN>
+	</object_texture_modding_example_name>
 
-	<object_doors_unlimited_desc id="73560101" pid="122">
-	<EN>This door should never see the light of day. If you see it, yell at BlackChakram.</EN>
-	</object_doors_unlimited_desc>		
+	<object_texture_modding_example_desc id="73560202" pid="122">		<!-- LINK YOU CUSTOM ID HERE -->
+	<EN>It's a light embedded into the floor. You can walk over it and it glows. What else do you want?</EN>
+	</object_texture_modding_example_desc>
 </t>

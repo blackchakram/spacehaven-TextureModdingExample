@@ -1,54 +1,30 @@
 <AllAnimations>
   <animations>
-		<ba f="30" id="73560110" ks="1" n="doorsUnlimitedWhiteFront">
+    <ba f="30" id="73560210" ks="1" n="735602floorLightOff">    <!-- MAKE SURE TO GIVE EACH BA A UNIQUE ID -->
 			<bones>
 				<b id="0">
 					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="5" y="28" />
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
 					</pos>
 				</b>
 			</bones>
 			<items>
-					<!-- the image for the front of the doorframe -->
-					<assetPos a="73560151" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="73560250" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="22" />      <!-- TEXTURE FOR THE LIGHT WHEN OFF -->
 			</items>
 		</ba>
-		<ba f="30" id="73560111" ks="1" n="doorsUnlimitedWhiteBack">
+		<ba f="30" id="73560211" ks="1" n="735602floorLightOn">    <!-- MAKE SURE TO GIVE EACH BA A UNIQUE ID -->
 			<bones>
 				<b id="0">
 					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="25" />
-					</pos>
-				</b>
-			</bones>
-			<items>
-					<!-- the image for the back of the doorframe -->
-					<assetPos a="73560150" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
-			</items>
-		</ba>
-		<ba f="22" id="73560112" ks="1,2,3,4" n="doorsUnlimitedWhiteDoor">
-			<bones>
-				<b id="0">
-					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="-4" y="1" />
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
 					</pos>
 					<c>
-						<b id="3">
+						<b id="8">
 							<pos>
-								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+								<p col="-3367" f="1" r="0" sx="1" sy="1" x="0" y="0" />
 							</pos>
 						</b>
-						<b id="4">
-							<pos>
-								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
-							</pos>
-						</b>
-						<b id="5">
-							<pos>
-								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
-							</pos>
-						</b>
-						<b id="6">
+						<b id="10">
 							<pos>
 								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
 							</pos>
@@ -57,64 +33,21 @@
 				</b>
 			</bones>
 			<items>
-				<!-- the 4 images that show the animation of the door opening -->
-				<assetPos a="73560152" bi="3" r="0" sx="1" sy="1" vf="1:1,2:0" x="0" y="26" />
-				<assetPos a="73560153" bi="4" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="0" y="26" />
-				<assetPos a="73560154" bi="5" r="0" sx="1" sy="1" vf="1:0,3:1,4:0" x="0" y="26" />
-				<assetPos a="73560155" bi="6" r="0" sx="1" sy="1" vf="1:0,4:1" x="-6" y="8" />
+				<assetPos a="243" bi="8" r="0" sx="1" sy="1" vf="1:1" x="0" y="36" />       <!-- EXISTING GLOW. SAME TEXTURE, MOVED DOWN SLIGHTLY -->
+				<assetPos a="73560251" bi="10" r="0" sx="1" sy="1" vf="1:1" x="11" y="36" />    <!-- BLUE GLOW FOR THE FLOOR LIGHT -->
 			</items>
 		</ba>
-				<ba f="30" id="73560113" ks="1" n="doorsUnlimitedWhiteVent1">
-			<bones>
-				<b id="0">
-					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
-					</pos>
-				</b>
-			</bones>
-			<items>
-				<!-- the glow for the door light. Don't change this image -->
-				<assetPos a="1297" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-4" y="12" />
-			</items>
-		</ba>
-				<ba f="30" id="73560114" ks="1" n="doorsUnlimitedWhiteVentLight1">
-			<bones>
-				<b id="0">
-					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="1" y="20" />
-					</pos>
-				</b>
-			</bones>
-			<items>
-				<!-- the glow for the door light. Don't change this image -->
-				<assetPos a="1565" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-4" y="-14" />
-			</items>
-		</ba>
-		<ba f="30" id="73560115" ks="1" n="doorsUnlimitedWhiteVentLight2">
-			<bones>
-				<b id="0">
-					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="1" y="20" />
-					</pos>
-				</b>
-			</bones>
-			<items>
-				<!-- the glow for the door light. Don't change this image -->
-				<assetPos a="1564" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-4" y="-14" />
-			</items>
-		</ba>
-		<ba f="30" id="73560116" ks="1" n="doorsUnlimitedWhiteGUI">
-			<bones>
-				<b id="0">
-					<pos>
-						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
-					</pos>
-				</b>
-			</bones>
-			<items>
-				<!-- The image used in the gui. Smaller version of the image. -->
-				<assetPos a="73560156" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
-			</items>
-		</ba>
+    <ba f="30" id="73560212" ks="1" n="build_icon_73560202">    <!-- MAKE SURE TO GIVE EACH BA A UNIQUE ID -->
+      <bones>
+        <b id="0">
+          <pos>
+            <p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+          </pos>
+        </b>
+      </bones>
+      <items>
+        <assetPos a="73560252" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />       <!-- GUI ICON -->
+      </items>
+    </ba>
   </animations>
 </AllAnimations>
