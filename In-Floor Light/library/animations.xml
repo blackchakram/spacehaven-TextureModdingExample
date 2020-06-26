@@ -9,7 +9,7 @@
 				</b>
 			</bones>
 			<items>
-				<assetPos a="73560250" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="22" />      <!-- TEXTURE FOR THE LIGHT WHEN OFF -->
+				<assetPos a="73560250" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="1" />      <!-- TEXTURE FOR THE LIGHT WHEN OFF -->
 			</items>
 		</ba>
 		<ba f="30" id="73560211" ks="1" n="735602floorLightOn">    <!-- MAKE SURE TO GIVE EACH BA A UNIQUE ID -->
@@ -33,8 +33,8 @@
 				</b>
 			</bones>
 			<items>
-				<assetPos a="243" bi="8" r="0" sx="1" sy="1" vf="1:1" x="0" y="36" />       <!-- EXISTING GLOW. SAME TEXTURE, MOVED DOWN SLIGHTLY -->
-				<assetPos a="73560251" bi="10" r="0" sx="1" sy="1" vf="1:1" x="11" y="36" />    <!-- BLUE GLOW FOR THE FLOOR LIGHT -->
+				<assetPos a="243" bi="8" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />       <!-- EXISTING GLOW. SAME TEXTURE, MOVED DOWN SLIGHTLY -->
+				<assetPos a="73560251" bi="10" r="0" sx="1" sy="1" vf="1:1" x="0" y="2" />    <!-- BLUE GLOW FOR THE FLOOR LIGHT -->
 			</items>
 		</ba>
     <ba f="30" id="73560212" ks="1" n="build_icon_73560202">    <!-- MAKE SURE TO GIVE EACH BA A UNIQUE ID -->
@@ -46,7 +46,7 @@
         </b>
       </bones>
       <items>
-        <assetPos a="73560252" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />       <!-- GUI ICON -->
+        <assetPos a="73560252" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="-24" />       <!-- GUI ICON -->
       </items>
     </ba>
   </animations>

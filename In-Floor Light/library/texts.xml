@@ -1,0 +1,10 @@
+<t>
+
+	<object_in-floor_light_name id="73560200" pid="122">		<!-- LINK YOU CUSTOM ID HERE -->
+	<EN>In-Floor Light</EN>
+	</object_in-floor_light_name>
+
+	<object_in-floor_light_desc id="73560201" pid="122">		<!-- LINK YOU CUSTOM ID HERE -->
+	<EN>It's a light embedded into the floor. You can walk over it and it glows. What else do you want?</EN>
+	</object_in-floor_light_desc>
+</t>
